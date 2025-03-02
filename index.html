@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Link of Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Link of font.css -->
+   <link rel="stylesheet" href="./style.css">
+</head>
+<body class="bg-slate-200">
+
+
+    <nav class="h-12 bg-slate-400 pt-2 pb-2 rounded-lg border-none w-10/12 mx-auto">
+      <div class="flex justify-between ps-4 pe-4">
+        <div class="flex items-center gap-1">
+          <div>
+            <img class="h-6" src="../assets/logo.png" alt="logo here">
+          </div>
+          <div>
+            <p class="text-xl">Dev<span class="poppins-bold">Board</span></p>
+          </div>
+        </div>
+        <div class="flex items-center gap-5">
+        <div class="flex gap-2 bg-white px-2 py-1 rounded-md">
+         <div>
+          <img class="h-6" src="../assets/accept.png" alt="tik mark">
+         </div>
+         <div>
+          <span id="point" class="poppins-medium">25</span>
+         </div>
+        </div>
+        <div>
+          <img id="wheel" class="h-7" src="../assets/wheel.png" alt="wheel" >
+         </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="flex gap-5 mb-5">
+
+    <section class="w-7/12 mx-auto pt-4 bg-slate-300 mt-10 rounded-md ms-28">
+
+      <div class="flex justify-between">
+
+      <div class="flex items-center gap-2 ps-2 bg-white px-3 ms-2 rounded-md">
+        <div>
+          <div><img class="h-7" src="../assets/accept.png" alt="tik mark" ></div>
+        </div>
+        <div>
+          <p>Task Asigned</p>
+          <span id="total-task" class="poppins-bold">5</span>
+        </div>
+
+      </div>
+
+      <div id="discover-btn" class="bg-gradient-to-br from-white via-[#00bfd8] to-[#0083f5] flex items-center rounded-md gap-2 px-3 py-3">
+        <div>
+          <img class="h-7" src="../assets/schedule.png" alt="calender">
+        </div>
+        <div>
+          <p class="poppins-regular">Discover Something <br>New Today!</p>
+        </div>
+      </div>
+
+      <div class=" bg-white mx-3 rounded flex items-center gap-2 ps-2 pe-2">
+        <div><img src="../assets/calender.png" alt="calender"></div>
+        <div>
+          <p>Thu,</p>
+          <p class="poppins-medium">Mar 1 2025</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card Container -->
+    <div id="container" class="mt-10 ps-2 mb-5">
+
+      <!-- First Two Card -->
+      <div class="flex justify-evenly">
+  
+      <!-- card 1 -->
+       <div class="w-4/12 bg-purple-400 p-3 rounded-md">
+        <div><button class="bg-slate-50 rounded-md p-1">ShopEase</button></div>
+        <h3 class="poppins-medium mt-2">Fix Mobile Button Issue</h3>
+        <div class="bg-white p-3 rounded-md mt-2">
+          <p>Debug using crome, <br> devtool and overlapping..</p>
+        </div>
+        <div class="flex mt-3 items-center justify-between">
+          <div>
+            <p>Deadline</p>
+            <p>21 March 2025</p>
+          </div>
+          <div><button id="btn-1" class="px-2 text-white py-1 bg-blue-600 rounded-md ">Completed</button></div>
+        </div>
+
+       </div>
+
+             <!-- card 2 -->
+             <div class="w-4/12 bg-purple-400 p-3 rounded-md">
+              <div><button class="bg-slate-50 rounded-md p-1">CloudSync</button></div>
+              <h3 class="poppins-medium mt-2">Add Dark Mode</h3>
+              <div class="bg-white p-3 rounded-md mt-2">
+                <p>Store user preferrrence store local variable in css .</p>
+              </div>
+              <div class="flex mt-3 items-center justify-between">
+                <div>
+                  <p>Deadline</p>
+                  <p>21 March 2025</p>
+                </div>
+                <div><button id="btn-2" class="px-2 text-white py-1 bg-blue-600 rounded-md ">Completed</button></div>
+              </div>
+      
+             </div>
+
+      </div>
+
+
+      <!-- Second Two -->
+        
+      <div class="flex justify-evenly mt-10">
+  
+        <!-- card 3 -->
+         <div class="w-4/12 bg-purple-400 p-3 rounded-md">
+          <div><button class="bg-slate-50 rounded-md p-1">SwiftPay</button></div>
+          <h3 class="poppins-medium mt-2">Optimize Home Page</h3>
+          <div class="bg-white p-3 rounded-md mt-2">
+            <p>Debug using crome, <br> devtool and overlapping..</p>
+          </div>
+          <div class="flex mt-3 items-center justify-between">
+            <div>
+              <p>Deadline</p>
+              <p>21 March 2025</p>
+            </div>
+            <div><button id="btn-3" class="px-2 py-1 text-white bg-blue-600 rounded-md ">Completed</button></div>
+          </div>
+  
+         </div>
+  
+               <!-- card 4 -->
+               <div class="w-4/12 bg-purple-400 p-3 rounded-md">
+                <div><button class="bg-slate-50 rounded-md p-1">Meta</button></div>
+                <h3 class="poppins-medium mt-2">Add New Emoji</h3>
+                <div class="bg-white p-3 rounded-md mt-2">
+                  <p>Store user preferrrence store local variable in css .</p>
+                </div>
+                <div class="flex mt-3 items-center justify-between">
+                  <div>
+                    <p>Deadline</p>
+                    <p>21 March 2025</p>
+                  </div>
+                  <div><button id="btn-4" class="px-2 py-1 text-white bg-blue-600 rounded-md ">Completed</button></div>
+                </div>
+        
+               </div>
+  
+        </div>
+
+        <!-- Third Two -->
+      <div class="flex justify-evenly mt-10">
+  
+        <!-- card 5 -->
+         <div class="w-4/12 bg-purple-400 p-3 rounded-md">
+          <div><button class="bg-slate-50 rounded-md p-1">GoogleLLc</button></div>
+          <h3 class="poppins-medium mt-2">Integrate OpenAI API</h3>
+          <div class="bg-white p-3 rounded-md mt-2">
+            <p>Debug using crome, <br> devtool and overlapping..</p>
+          </div>
+          <div class="flex mt-3 items-center justify-between">
+            <div>
+              <p>Deadline</p>
+              <p>21 March 2025</p>
+            </div>
+            <div><button id="btn-5" class="px-2 text-white py-1 bg-blue-600 rounded-md ">Completed</button></div>
+          </div>
+  
+         </div>
+  
+               <!-- card 6 -->
+               <div class="w-4/12 bg-purple-400 p-3 rounded-md">
+                <div><button class="bg-slate-50 rounded-md p-1">GlassDoar</button></div>
+                <h3 class="poppins-medium mt-2">Improve Job Searching</h3>
+                <div class="bg-white p-3 rounded-md mt-2">
+                  <p>Store user preferrrence store local variable in css .</p>
+                </div>
+                <div class="flex mt-3 items-center justify-between">
+                  <div>
+                    <p>Deadline</p>
+                    <p>21 March 2025</p>
+                  </div>
+                  <div><button id="btn-6" class="px-2 text-white py-1 bg-blue-600 rounded-md ">Completed</button></div>
+                </div>
+        
+               </div>
+  
+  
+
+    </div>
+
+
+
+    </section>
+
+
+
+
+
+    <section class="w-4/12 me-28 mt-10">
+      <div class="h-full bg-white rounded-md">
+       <div class="flex items-center gap-3 justify-center pt-3">
+        <div><img class="h-9 text-white" src="../assets/history.png" alt="icon"></div>
+        <h3 class="poppins-bold pt-2">Activity Log</h3>
+        
+       </div>
+       <div><button id="clear-btn" class="px-2 py-1 bg-blue-500 text-white rounded-md ms-36
+        mt-3">Clear History</button></div>
+
+        <div id="button-click-effect" class="px-4 py-4 mt-3 mb-4
+        rounded-md ">
+       
+        </div>
+      </div>
+
+     
+
+    </section>
+
+  </section>
+
+ 
+  <script src="./main.js"></script>
+</body>
+</html>

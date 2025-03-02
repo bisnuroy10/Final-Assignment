@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Details Page</title>
+    <!-- Link of Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Link of font.css -->
+     <link rel="stylesheet" href="./font.css">
+</head>
+<body >
+
+<section class="w-10/12 mx-auto bg-slate-300">
+  <nav class="h-12 bg-slate-400 pt-2 pb-2 rounded-lg border-none">
+    <div class="flex justify-between ps-4 pe-4">
+      <div class="flex items-center gap-1">
+        <div>
+          <img class="h-6" src="../assets/logo.png" alt="logo here">
+        </div>
+        <div>
+          <p class="text-xl">Dev<span class="poppins-bold">Board</span></p>
+        </div>
+      </div>
+      <div>
+        <button id="back-button" class="bg-blue-700 text-white px-2 py-1 rounded-md">Back to Desk</button>
+      </div>
+    </div>
+  </nav>
+</section>
+<h3 class="text-center poppins-bold mt-3 mb-3">Blogs</h3>
+
+    <section class="w-10/12 mx-auto bg-slate-300 rounded-md">
+
+    <div class="py-3 px-3 poppins-semibold">
+    Question-1 : What are the different way to select element in Dom?<hr class="mt-2">
+
+    </div>
+    <div class="px-3 pb-3">
+    There are six way to select element in dom.There are id selector, class selector,
+    select with tagname, query selector all, query selector.We use it in document.
+    getelementById/classname/tagname etc formate.
+    </div>
+
+    </section>
+
+    <section class="w-10/12 mx-auto bg-slate-300 rounded-md mt-5">
+
+      <div class="py-3 px-3 poppins-semibold">
+        Question-2: What is the difference between innerHTML, innerText, and textContent ?<hr class="mt-2">
+  
+      </div>
+      <div class="px-3 pb-3">
+       There is huge difference between innerHTML, innerText and textcontent.We can 
+       add a html formate by using innerHTML, we can adjust only inner text between 
+       two content by using innerText, we can get value by using (.)value.
+      </div>
+  
+      </section>
+
+      <section class="w-10/12 mx-auto bg-slate-300 rounded-md mt-5">
+
+        <div class="py-3 px-3 poppins-semibold">
+          Question-3: What is event delegation in the DOM?<hr class="mt-2">
+    
+        </div>
+        <div class="px-3 pb-3">
+        Sorry, I forget it.Event is a way to do any kind of work by using DOM and Js.
+        </div>
+    
+        </section>
+
+        <section class="w-10/12 mx-auto bg-slate-300 rounded-md mt-5">
+
+          <div class="py-3 px-3 poppins-semibold">
+            Question-4: What is event bubbling in the DOM?<hr class="mt-2">
+      
+          </div>
+          <div class="px-3 pb-3">
+          Event bubbling is a way to stop a event in childnodes, siblings, parentnodes.When a event is happning in a child, it is also happning in a parent node.If we need to stop it parent node or start it in any siblings we use event bubbling.
+          </div>
+      
+          </section>
+
+
+          <section class="w-10/12 mx-auto bg-slate-300 rounded-md mt-5 mb-5">
+
+            <div class="py-3 px-3 poppins-semibold">
+              Question-5: How do you create, add, and remove elements using JavaScript?<hr class="mt-2">
+        
+            </div>
+            <div class="px-3 pb-3">
+              To creat a element in js at first I need to take a varaible creat the element by using const newEle =  document.creatElement("").. and then take the varaible name .innerText / .innerHTML . Then finaly push the element to its child tag by using append().To remove a element we need to select the element first and then make it display none.Here is a example.document.getElementById("btn").style.display = none. 
+            </div>
+        
+            </section >
+
+
+
+ <script src="./second.js"></script>
+</body>
+</html>
